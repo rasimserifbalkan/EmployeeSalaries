@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalaries.Core", "EmployeeSalaries.Core\EmployeeSalaries.Core.csproj", "{8E5CF81D-894D-4E80-94B4-53179C3082E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalaries.SalaryDb.Entities", "EmployeeSalaries.SalaryDb.Entities\EmployeeSalaries.SalaryDb.Entities.csproj", "{2F826BF7-A231-4AAA-B1FF-50C92619E6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalaries.SalaryDb.Business", "EmployeeSalaries.SalaryDb.Business\EmployeeSalaries.SalaryDb.Business.csproj", "{C5CCFAD7-6AE9-4640-B415-52B330906E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalaries.SalaryDb.DataAccess", "EmployeeSalaries.SalaryDb.DataAccess\EmployeeSalaries.SalaryDb.DataAccess.csproj", "{9D4387A2-734E-4F3C-8A74-ABB346F65D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalaries.SalaryDb.DataAccess.Tests", "EmployeeSalaries.SalaryDb.DataAccess.Tests\EmployeeSalaries.SalaryDb.DataAccess.Tests.csproj", "{39F60C32-D64A-43E0-953C-D2280CF72EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalaries.SalaryDb.Business.Tests", "EmployeeSalaries.SalaryDb.Business.Tests\EmployeeSalaries.SalaryDb.Business.Tests.csproj", "{1EA53551-8AEB-466C-BA36-4D513CAC4C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalaries.SalaryDb.WebApi", "EmployeeSalaries.SalaryDb.WebApi\EmployeeSalaries.SalaryDb.WebApi.csproj", "{01F6F1F3-40FE-4994-91D2-4B42A2C52E2E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EmployeeSalaries.SalaryDb.WcfService", "EmployeeSalaries.SalaryDb.WcfService\", "{22385B18-3BE2-4CB0-AC76-098E96C990A4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59768"
+		Debug.AspNetCompiler.PhysicalPath = "EmployeeSalaries.SalaryDb.WcfService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59768\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59768"
+		Release.AspNetCompiler.PhysicalPath = "EmployeeSalaries.SalaryDb.WcfService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59768\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59768"
+		SlnRelativePath = "EmployeeSalaries.SalaryDb.WcfService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E5CF81D-894D-4E80-94B4-53179C3082E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5CF81D-894D-4E80-94B4-53179C3082E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5CF81D-894D-4E80-94B4-53179C3082E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5CF81D-894D-4E80-94B4-53179C3082E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F826BF7-A231-4AAA-B1FF-50C92619E6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F826BF7-A231-4AAA-B1FF-50C92619E6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F826BF7-A231-4AAA-B1FF-50C92619E6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F826BF7-A231-4AAA-B1FF-50C92619E6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CCFAD7-6AE9-4640-B415-52B330906E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CCFAD7-6AE9-4640-B415-52B330906E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CCFAD7-6AE9-4640-B415-52B330906E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CCFAD7-6AE9-4640-B415-52B330906E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4387A2-734E-4F3C-8A74-ABB346F65D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4387A2-734E-4F3C-8A74-ABB346F65D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4387A2-734E-4F3C-8A74-ABB346F65D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4387A2-734E-4F3C-8A74-ABB346F65D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F60C32-D64A-43E0-953C-D2280CF72EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F60C32-D64A-43E0-953C-D2280CF72EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F60C32-D64A-43E0-953C-D2280CF72EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F60C32-D64A-43E0-953C-D2280CF72EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA53551-8AEB-466C-BA36-4D513CAC4C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA53551-8AEB-466C-BA36-4D513CAC4C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA53551-8AEB-466C-BA36-4D513CAC4C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA53551-8AEB-466C-BA36-4D513CAC4C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F6F1F3-40FE-4994-91D2-4B42A2C52E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F6F1F3-40FE-4994-91D2-4B42A2C52E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F6F1F3-40FE-4994-91D2-4B42A2C52E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F6F1F3-40FE-4994-91D2-4B42A2C52E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22385B18-3BE2-4CB0-AC76-098E96C990A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22385B18-3BE2-4CB0-AC76-098E96C990A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22385B18-3BE2-4CB0-AC76-098E96C990A4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{22385B18-3BE2-4CB0-AC76-098E96C990A4}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA2F2C2D-0B70-459D-894B-E525DC26B054}
+	EndGlobalSection
+EndGlobal
